@@ -14,7 +14,6 @@ https://www.packer.io/downloads.html
 
 Register on https://developers.redhat.com/. 
  - From there you can download rhel-server-7.7-x86_64-dvd.iso iso file, that you should put next to file packer-redhat7.json
- 
 ## How to run the code:
 
 
