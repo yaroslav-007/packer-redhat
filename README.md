@@ -34,6 +34,6 @@ Register on https://developers.redhat.com/.
 
 ## Start packer:
 
-    packer packer-redhat7.json
+    packer build packer-redhat7.json
 
 When done file named redhat7.box will be generated.
