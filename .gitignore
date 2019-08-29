@@ -1,0 +1,6 @@
+output-vagrant-redhat7/
+packer_cache/
+*.log
+*.iso
+.vagrant
+Vagrantfile
