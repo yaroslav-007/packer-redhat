@@ -6,6 +6,7 @@ This is simple packer project that builds RedHat 7 virtualbox box for vagrant.
 ## Pre-requirements
 
 **Install Packer:**
+
 Download and install accordingly to your OS as described here:
 https://www.packer.io/downloads.html
 
