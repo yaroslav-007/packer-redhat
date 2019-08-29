@@ -33,7 +33,7 @@
         "iso_checksum": "88b42e934c24af65e78e09f0993e4dded128d74ec0af30b89b3cdc02ec48f028",
         "iso_checksum_type": "sha256",
 
-        "http_directory" : "redhat7_http",
+        "http_directory" : "http",
         "http_port_min" : 8080,
         "http_port_max" : 8082,
 
@@ -47,7 +47,7 @@
 	"boot_wait": "5s",
         "boot_command" : [
             "<tab>",
-            " text ks=http://{{ .HTTPIP }}:{{ .HTTPPort }}/ks.cfg ",
+            " text ks=http://{{ .HTTPIP }}:{{ .HTTPPort }}/preseed.cfg ",
             "<enter>"
         ]
 
