@@ -73,8 +73,7 @@
       "chown -R vagrant: ~vagrant/.ssh",
       "cp /etc/ssh/sshd_config /etc/ssh/sshd_config.ori",
       "sed -i -e '/#UseDNS yes/a UseDNS no' /etc/ssh/sshd_config",
-      "for nic in /etc/sysconfig/network-scripts/ifcfg-*; do sed -i /HWADDR/d $nic; done",
-      "subscription-manager register --username <username> --password <password>"
+      "for nic in /etc/sysconfig/network-scripts/ifcfg-*; do sed -i /HWADDR/d $nic; done"
        ]
   }],
 
